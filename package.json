@@ -1,0 +1,12 @@
+{
+  "name": "pedalpal-monorepo",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "preview": "npm --prefix frontend run preview",
+    "php": "php -S localhost:8080 -t public",
+    "start": "npm run php & npm run dev",
+    "setup": "composer install && npm --prefix frontend install && php public/index.php --migrate"
+  }
+}

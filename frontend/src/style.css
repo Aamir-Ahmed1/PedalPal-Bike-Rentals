@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-pink: #f5576c;
+  --color-brand-purple: #f093fb;
+  --color-brand-blue: #4facfe;
+  --color-brand-cyan: #00f2fe;
+  --color-sand: #fef3c7;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
